@@ -93,7 +93,7 @@ function Sidebar({ open, onClose }) {
           <ListItem
             button
             component={Link}
-            to="/servicio-tecnico"
+            to="/empleados"
             sx={{
               "&:hover": { backgroundColor: "rgba(255,255,255,0.1)" },
               borderRadius: "8px",
@@ -104,7 +104,7 @@ function Sidebar({ open, onClose }) {
             <ListItemIcon>
               <BuildIcon sx={{ color: "#fff" }} />
             </ListItemIcon>
-            <ListItemText primary="Servicio Técnico" sx={{ color: "#FFF" }} />
+            <ListItemText primary="Empleados" sx={{ color: "#FFF" }} />
           </ListItem>
           <ListItem
             button
@@ -165,13 +165,13 @@ function Sidebar({ open, onClose }) {
           <ListItem
             button
             component={Link}
-            to="/servicio-tecnico"
+            to="/empleados"
             onClick={onClose}
           >
             <ListItemIcon>
               <BuildIcon sx={{ color: "#fff" }} />
             </ListItemIcon>
-            <ListItemText primary="Servicio Técnico" sx={{ color: "#FFF" }} />
+            <ListItemText primary="Empleados" sx={{ color: "#FFF" }} />
           </ListItem>
           <ListItem button component={Link} to="/eventos" onClick={onClose}>
             <ListItemIcon>
