@@ -11,7 +11,7 @@ export const ROUTES = {
   REGISTER: "/register",
   PRODUCTS: "/productos",
   SUPPLIERS: "/proveedores",
-  TECHNICAL_SERVICE: "/servicio-tecnico",
+  TECHNICAL_SERVICE: "/empleados",
   EVENTS: "/eventos",
 };
 
